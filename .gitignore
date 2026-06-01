@@ -1,0 +1,30 @@
+# --- Ambiente virtual ---
+.venv/
+venv/
+env/
+
+# --- Python: bytecode e cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Testes ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Relatórios gerados pela execução ---
+*_resultado.json
+
+# --- Dados grandes / de teste (não versionar) ---
+creditcard.csv
+transacoes_financeiras.csv
+
+# Mantém o CSV de exemplo pequeno versionado:
+!transacoes_teste.csv
+
+# --- IDE / SO ---
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
